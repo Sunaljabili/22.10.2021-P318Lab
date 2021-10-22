@@ -1,0 +1,21 @@
+#tab-menu{}
+
+#tab-menu .body{
+    display: flex;
+    border: 2px solid black;
+    background-color: gainsboro;
+}
+
+#tab-menu .body div{
+    padding: 25px;
+    cursor: pointer;
+
+}
+
+#tab-menu .content{
+    border: 1px solid black;
+}
+.active{
+    background-color: gray;
+}
+#tab-menu .content .item{}
